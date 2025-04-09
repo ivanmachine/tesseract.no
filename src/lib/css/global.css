@@ -1,0 +1,16 @@
+:root {
+    --bg: hsl(258, 100%, 7%);
+    --text: hsl(0, 0%, 90%);
+    font-size: 16px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg);
+    color: var(--text);
+}

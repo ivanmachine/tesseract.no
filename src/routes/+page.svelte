@@ -1,2 +1,11 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+  import { goto } from "$lib/utils/goto";
+  import { onMount } from "svelte";
+  // onMount(() => {
+  //   goto("/en");
+  // });
+</script>
+
+<p>
+  whoopsie you are on a home page without a language url, redirecting to /en
+</p>
