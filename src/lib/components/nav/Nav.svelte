@@ -4,14 +4,14 @@
 </script>
 
 <nav class="flex w-full justify-between items-center">
-  <a href="/">{$_("site_title")}</a>
+  <a href="/">Tesseract Technologies</a>
 
   <div class="flex ml-auto gap-4">
-    <a href="/services">services</a>
-    <a href="/projects">projects</a>
-    <a href="/about-us">about</a>
-    <a href="/articles">articles</a>
-    <a href="/contact">contact</a>
+    <a href="/services">{$_("nav_services")}</a>
+    <a href="/projects">{$_("nav_projects")}</a>
+    <a href="/about-us">{$_("nav_about")}</a>
+    <a href="/articles">{$_("nav_articles")}</a>
+    <a href="/contact">{$_("nav_contact")}</a>
     <LanguageSwitch />
   </div>
 </nav>

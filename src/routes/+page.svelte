@@ -1,9 +1,4 @@
 <script>
-  import { goto } from "$lib/utils/goto";
-  import { onMount } from "svelte";
-  // onMount(() => {
-  //   goto("/en");
-  // });
 </script>
 
 <p>

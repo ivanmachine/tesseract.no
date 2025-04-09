@@ -1,4 +1,9 @@
 {
   "site_title": "Tesseract Technologies",
-  "nav_home": "Home"
-} 
+  "nav_home": "Home",
+  "nav_services": "Services",
+  "nav_projects": "Projects",
+  "nav_about": "About",
+  "nav_articles": "Articles",
+  "nav_contact": "Contact"
+}

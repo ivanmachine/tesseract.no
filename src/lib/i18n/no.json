@@ -1,4 +1,9 @@
 {
   "site_title": "Tesseract Teknologier",
-  "nav_home": "Hjem"
+  "nav_home": "Hjem",
+  "nav_services": "Tjenester",
+  "nav_projects": "Prosjekter",
+  "nav_about": "Om oss",
+  "nav_articles": "Artikler",
+  "nav_contact": "Kontakt"
 } 
