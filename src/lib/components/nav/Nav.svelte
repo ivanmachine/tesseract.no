@@ -4,9 +4,10 @@
 </script>
 
 <nav class="flex w-full justify-between items-center">
-  <a href="/">Tesseract Technologies</a>
+  <a class="title" href="/home">Tesseract</a>
 
-  <div class="flex ml-auto gap-4">
+  <div class="flex ml-auto gap-8 center links">
+    <a href="/home">{$_("nav_home")}</a>
     <a href="/services">{$_("nav_services")}</a>
     <a href="/projects">{$_("nav_projects")}</a>
     <a href="/about-us">{$_("nav_about")}</a>
@@ -19,5 +20,14 @@
 <style>
   nav {
     padding: 1rem 2rem;
+  }
+  .links > a:hover {
+    text-decoration: underline;
+  }
+
+  .title {
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: "Orbitron", sans-serif;
   }
 </style>

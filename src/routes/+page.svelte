@@ -1,6 +1,7 @@
 <script>
-</script>
+  import { goto } from "$app/navigation";
 
-<p>
-  whoopsie you are on a home page without a language url, redirecting to /en
-</p>
+  $effect(() => {
+    goto("/en/home");
+  });
+</script>
