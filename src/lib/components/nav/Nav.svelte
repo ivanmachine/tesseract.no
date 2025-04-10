@@ -2,11 +2,23 @@
   import { _ } from "svelte-i18n";
   import LanguageSwitch from "./LanguageSwitch.svelte";
   import NavLink from "./NavLink.svelte";
-  $: isOpen = false;
-  $: innerWidth = 0;
+  import { animate, onScroll } from "animejs";
+
+  $effect(() => {
+    animate("#nav", {
+      top: "-100",
+      duration: 300,
+      easing: "easeOut",
+      autoplay: onScroll({
+        enter: "top-=100px",
+        debug: true,
+      }),
+    });
+  });
 </script>
 
 <nav
+  id="nav"
   class="fixed top-0 flex justify-between items-end lg:items-center flex-col lg:flex-row right-0 h-full lg:h-fit w-min lg:w-full bg-blue-500 lg:bg-transparent"
 >
   <a class="title" href="/home">Tesseract</a>
