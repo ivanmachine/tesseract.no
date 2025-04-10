@@ -33,8 +33,12 @@
 		"vitest": "^3.0.0"
 	},
 	"dependencies": {
+		"@threlte/core": "^8.0.1",
+		"@threlte/extras": "^9.1.0",
 		"@types/animejs": "^3.1.13",
+		"@types/three": "^0.175.0",
 		"animejs": "^4.0.1",
-		"svelte-i18n": "^4.0.1"
+		"svelte-i18n": "^4.0.1",
+		"three": "^0.175.0"
 	}
 }
