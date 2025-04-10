@@ -17,7 +17,7 @@
     <option value="en">English</option>
     <option value="no">Norwegian</option>
   </select>
-  <img class="chevron" src="/icons/chevron_down_dark.svg" alt="chevron down" />
+  <img src="/icons/chevron_down_dark.svg" class="chevron" alt="chevron down" />
 </div>
 
 <style>
@@ -30,6 +30,7 @@
   select {
     background-color: var(--text);
     color: var(--bg);
+    background-image: none;
   }
   select {
     border: none;

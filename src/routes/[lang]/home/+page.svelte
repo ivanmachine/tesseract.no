@@ -1,14 +1,13 @@
-<main class="flex center">
-  <div class="hero">
-    <h1>FOUR DIMENTIONAL INNOVATION</h1>
-  </div>
-</main>
+<script lang="ts">
+  import Transition from "$lib/components/animation/Transition.svelte";
+  import BlankSection from "$lib/components/common/BlankSection.svelte";
+  import Cards from "./_lib/Cards.svelte";
+  import Hero from "./_lib/Hero.svelte";
+</script>
 
-<style>
-  .hero {
-    max-width: 1200px;
-    text-align: center;
-    height: fit-content;
-    margin: auto;
-  }
-</style>
+<main class="flex flex-col center">
+  <Hero />
+  <Transition />
+  <BlankSection />
+  <Cards />
+</main>

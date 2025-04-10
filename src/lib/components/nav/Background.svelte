@@ -1,4 +1,6 @@
-<div class="background"></div>
+<div class="background flex center">
+  <img class="code" src="/code.png" alt="code" />
+</div>
 
 <style>
   .background {
@@ -9,5 +11,11 @@
     height: 100%;
     background: radial-gradient(circle, var(--bg), var(--bg-dark));
     z-index: -1;
+  }
+
+  .code {
+    margin-top: -100px;
+    width: 1200px;
+    opacity: 0.4;
   }
 </style>
